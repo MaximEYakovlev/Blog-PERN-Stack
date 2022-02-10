@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80px;
+  background-color: cornsilk;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+}
+
+.logo {
+  font-family: "Shadows Into Light Two";
+  font-size: 27px;
+  margin-left: 30px;
+  color: tomato;
+}

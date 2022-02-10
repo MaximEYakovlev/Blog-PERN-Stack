@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;
+  margin-top: 5px;
+  background-color: azure;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+}
+
+.button {
+  margin: 20px 20px;
+  width: 170px;
+  background-color: lightgreen;
+  color: gray;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  border-radius: 7px;
+  border: 1px solid lightgray;
+}
+
+.list {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}

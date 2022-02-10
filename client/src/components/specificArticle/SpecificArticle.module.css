@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 900px;
+  margin-top: 5px;
+  background-color: azure;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  margin: 20px 20px;
+  font-size: 20px;
+}
+
+.created {
+  margin: 10px 20px;
+  font-size: 13px;
+  color: gray;
+}
+
+.updated {
+  margin: 1px 20px;
+  font-size: 13px;
+  color: gray;
+}
+
+.content {
+  max-width: 700px;
+  margin: 30px 20px;
+  font-size: 17px;
+}
+
+.button {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  width: 170px;
+  background-color: white;
+  color: gray;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  border-radius: 7px;
+  border: 1px solid lightgray;
+}
+
+.deleteButton {
+  margin: 20px 20px;
+  width: 170px;
+  background-color: tomato;
+  color: white;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  border-radius: 7px;
+  border: 1px solid lightgray;
+  position: relative;
+  left: 200px;
+  top: -54px;
+}
