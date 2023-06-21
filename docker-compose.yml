@@ -1,8 +1,11 @@
-version: 
-
 services:
- client:
+ frontend:
+   build: client/
+   ports:
+     - 3000:3000
 
- server:
-
- db:
+ backend:
+   build: server/
+   ports:
+     - 8080:8080
+           
