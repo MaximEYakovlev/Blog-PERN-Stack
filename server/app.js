@@ -8,6 +8,7 @@ const app = express();
 
 const indexRouter = require("./routes/indexRouter");
 const articleRouter = require("./routes/articleRouter");
+const loginRouter = require("./routes/loginRouter");
 
 // setup morgan
 app.use(morgan("dev"));
@@ -27,6 +28,7 @@ app.use(express.urlencoded({ extended: true }));
 // routes
 app.use("/articles", indexRouter);
 app.use("/article", articleRouter);
+app.use("/login", loginRouter);
 
 app.listen(PORT, () => {
   console.log(`Server has been started on port ${PORT}`);
